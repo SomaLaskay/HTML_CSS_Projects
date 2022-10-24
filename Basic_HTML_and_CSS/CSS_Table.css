@@ -1,0 +1,20 @@
+table {
+	border: 1px dashed blue;
+}
+
+tr, th {
+	background-color:silver;
+	font-style:darkgrey;
+}
+td {
+	background-color: white;
+	color:red;
+}
+.boy:hover {
+	background-color:lightblue;
+	color:black;
+}
+.girl:hover {
+	background-color:purple;
+	color:white;
+}
