@@ -3,6 +3,7 @@
 <head>
 	<title>OnePager</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/one_page_website.css">
 </head>
 <body>
 
@@ -15,7 +16,7 @@
 	<!-- END HEADING -->
 	
 	<!-- NAV -->
-	<div>
+	<div class="navbar">
 		<a href="#home">HOME</a>
 		<a href="#fdm">FDM</a>
 		<a href="#sla">SLA</a>
@@ -24,13 +25,13 @@
 	</div>
 	<!-- END NAV -->
 	<!-- VIDEO -->
-		<div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/bcTzyx35odY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="emb-video">
+			<iframe src="https://www.youtube.com/embed/bcTzyx35odY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 	<!-- END VIDEO -->
 	<!-- FDM -->
-	<div id="fdm">
-		<h3>Fused Deposition Modeling (FDM)</h3>
+	<div id="fdm" class="article">
+		<h2>Fused Deposition Modeling (FDM)</h2>
 		<table>
 			<tr>
 				<td><img src="./image/thumb/thumbnail_1.png" alt="FDM photo"></td>
@@ -48,8 +49,8 @@
 	<!-- END FDM -->
 	
 	<!-- SLA -->
-	<div id="sla">
-		<h3>Stereolithography (SLA)</h3>
+	<div id="sla" class="article">
+		<h2>Stereolithography (SLA)</h2>
 		<table>
 			<tr>
 				<td>
@@ -66,8 +67,8 @@
 	</div>
 	<!-- END SLA -->
 	<!-- SLS -->
-	<div id="sls">
-		<h3>Selective laser sintering (SLS)</h3>
+	<div id="sls" class="article">
+		<h2>Selective laser sintering (SLS)</h2>
 		<table>
 			<tr>
 				<td><img src="./image/thumb/thumbnail_3.png" alt="SLS photo"></td>
@@ -80,23 +81,24 @@
 			</tr>
 		</table>
 	</div>
+	<br>
 	<!-- END SLS -->
 	<!-- CONTACT -->
 		<div id="contact">
 			<h4>If you have any question or need advice, get in touch with us or subscribe to our weekly newsletter!</h4>
 			<form action="" method="POST">
 				<ul>
-				<li><input type="text" value="First Name"></li>
-				<li><input type="text" value="Last Name"></li>
-				<li><input type="text" value="E-Mail Address"></li>
-				<li><input type="Submit" value="Submit"></li>
+					<li><input type="text" placeholder="First Name"></li>
+					<li><input type="text" placeholder="Last Name"></li>
+					<li><input type="text" placeholder="E-Mail Address"></li>
+					<li><input type="Submit" value="Submit"></li>
 				</ul>
 			</form>
 		</div>
-	<!-- END CONTACT>
+	<!-- END CONTACT -->
 	<!-- FOOTER -->
-		<div>
-			www.freedeeprintee.com &nbsp; | &nbsp; &copy;2022
+		<div class="footer">
+			www.freedeeprintee.com &nbsp; | &nbsp; &copy;2023
 		</div>
 	<!-- END FOOTER -->
 	

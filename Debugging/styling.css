@@ -1,0 +1,31 @@
+/* ENTIRE PAGE STYLING */
+body {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+/* HEADING STYLING */
+.heading {
+    text-align: center;
+}
+
+/* CONTENT STYLING */
+.content {
+    text-align: center;
+}
+
+.content img {
+    width: 600px;
+    height: 300px;
+    border: 2px dashed red;
+}
+
+/* MEDIA-CONTENT STYLING */
+.media-content {
+    text-align: center;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
